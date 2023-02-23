@@ -134,3 +134,14 @@ button {
     justify-content: flex-end;
     padding-right: 40px;
 }
+
+.section-four {
+    background-color: #3882F6;
+    margin: 40px;
+    padding: 30px 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #F9FAF8;
+}

@@ -78,10 +78,14 @@ button {
 .section-two {
     display: flex;
     flex-direction: column;
-    padding: 30px 90px 90px;
     gap: 30px;
     align-items: center;
     color: #1F2937;
+}
+
+.section-two,
+.section-three {
+    padding: 30px 90px 90px;
 }
 
 .title {
@@ -108,4 +112,25 @@ button {
     width: 150px;
     height: 150px;
     margin-bottom: 2px;
+}
+
+.section-three {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding-top: 90px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.author {
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
 }

@@ -11,9 +11,10 @@ body {
 }
 
 .header,
-.section-one {
+.section-one,
+.footer {
     background-color: #1F2937;
-    padding: 12px 40px;
+    padding: 18px 40px;
 }
 
 .header-logo {
@@ -27,7 +28,8 @@ body {
 }
 
 .links,
-.hero-secondary-text {
+.hero-secondary-text,
+.footer {
     color: #E5E7EB;
     font-size: 18px;
 }
@@ -161,4 +163,9 @@ button,
 
 .call-text {
     font-weight: lighter;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
 }

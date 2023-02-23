@@ -32,7 +32,6 @@ body {
     font-size: 18px;
 }
 
-
 .section-one {
     display: flex;
     justify-content: space-between;
@@ -72,6 +71,11 @@ button {
     color: #F9FAF8;
     padding: 5px 20px;
     border: none;
+}
+
+button,
+.section-four,
+.button {
     border-radius: 5px;
 }
 
@@ -104,6 +108,7 @@ button {
     align-items: center;
     flex-basis: 150px;
     text-align: center;
+    font-weight: lighter;
 }
 
 .image {
@@ -139,9 +144,21 @@ button {
     background-color: #3882F6;
     margin: 40px;
     padding: 30px 50px;
-    border-radius: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: #F9FAF8;
+}
+
+.button {
+    border: 2px solid #F9FAF8;
+}
+
+.call {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.call-text {
+    font-weight: lighter;
 }
